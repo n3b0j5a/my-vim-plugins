@@ -1,0 +1,39 @@
+[submodule "Conque-GDB"]
+	path = Conque-GDB
+	url = https://github.com/vim-scripts/Conque-GDB.git
+[submodule "Conque-Shell"]
+	path = Conque-Shell
+	url = https://github.com/vim-scripts/Conque-Shell.git
+[submodule "DoxygenToolkit.vim"]
+	path = DoxygenToolkit.vim
+	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+[submodule "auto-pairs"]
+	path = auto-pairs
+	url = https://github.com/vim-scripts/auto-pairs.git
+[submodule "indentLine"]
+	path = indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+[submodule "supertab"]
+	path = supertab
+	url = https://github.com/vim-scripts/supertab.git
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/vim-scripts/syntastic.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "undotree"]
+	path = undotree
+	url = https://github.com/mbbill/undotree.git
+[submodule "vim-plugins"]
+	path = vim-plugins
+	url = https://github.com/WolfgangMehner/vim-plugins.git
+[submodule "vim-repeat"]
+	path = vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "a.vim"]
+	path = a.vim
+	url = https://github.com/ChevalierDeBalibari/a.vim.git
