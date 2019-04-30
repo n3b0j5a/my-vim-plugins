@@ -45,8 +45,7 @@ Next, clone this repository into bundle folder:
 
 ```
 cd ~/.vim/bundle
-git clone git@github.com:ChevalierDeBalibari/my-vim-plugins.git
-git submodule init
+git clone --recursive git@github.com:ChevalierDeBalibari/my-vim-plugins.git
 ```
 
 That's all!
