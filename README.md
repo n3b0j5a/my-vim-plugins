@@ -1,28 +1,37 @@
-# Vim plugins collection 
+# Vim plugins collection
 
-This is the library of plugins that I use for my daily job. 
+This is the library of plugins that I use for my daily job. I use it mostly for embedded and kernel
+development in C, or C++,  and plugins are chosen according to my needs. I also have my own .vimrc
+configuration file which sets a lot of options to vim. Fill free to test it and customize it to your
+own needs.
 
-## Plugins description
-Library currently has following plugins 
-* Conque-GDB 
-* Conque-Shell
-* DoxygenToolkit
-* a.vim
-* auto-pairs
-* indentLine
-* nerdtree
-* supertab
-* syntastic
-* undotree
-* vim-plugins
-* vim-repeat
-* vim-sorround
+## Plugin details and descrioption
 
+For each plugin, please visit its home page:
+
+
+* DoxygenToolkit:     https://github.com/vim-scripts/DoxygenToolkit.vim
+* a.vim:              https://github.com/vim-scripts/a.vim
+* auto-pairs:         https://github.com/jiangmiao/auto-pairs
+* cscope-maps:        https://github.com/joe-skb7/cscope-maps.git
+* file-line:          https://github.com/bogado/file-line.git
+* indentLine:         https://github.com/Yggdroot/indentLine.git
+* NERDtree:           https://github.com/scrooloose/nerdtree.git
+* supertab:           https://github.com/ervandew/supertab.git
+* tagbar:             https://github.com/majutsushi/tagbar.git
+* undotree:           https://github.com/mbbill/undotree.git
+* vim-airline:        https://github.com/vim-airline/vim-airline
+* vim-airline-themes: https://github.com/vim-airline/vim-airline-themes
+* vim-gitgutter:      https://github.com/airblade/vim-gitgutter
+* vim-plugins:        https://github.com/WolfgangMehner/vim-plugins.git
+* vim-repeat:         https://github.com/tpope/vim-repeat
+* vim-surround:       https://github.com/tpope/vim-surround
+* vim-virtualenv:     https://github.com/plytophogy/vim-virtualenv
 
 ## Installation
 
 To install all plugins you should have pathogen installed. Pathogen will
-automaticaly include all plugins from ~/.vim/bunde folder at vim start.
+automatically include all plugins from ~/.vim/bundle folder at vim start.
 To install pathogen run following commands:
 
 ```
@@ -50,6 +59,6 @@ This repository contains only a portion of my complete vim installation that inc
 * Custom .vimrc file
 * Script for automatic installation of all above mentioned stuff
 
-## Conttributing
-please have a look at [CONTRIBUTING.md](CONTRIBUTING.md)
+## Contributing
+Fill free to send suggestions to my mail: chevalierdebalibari@keemail.me
 
