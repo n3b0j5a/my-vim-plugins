@@ -15,11 +15,13 @@ For each plugin, please visit its home page:
 * auto-pairs:         https://github.com/jiangmiao/auto-pairs
 * cscope-maps:        https://github.com/joe-skb7/cscope-maps.git
 * file-line:          https://github.com/bogado/file-line.git
+* fugitive            https://github.com/tpope/vim-fugitive
 * indentLine:         https://github.com/Yggdroot/indentLine.git
 * NERDtree:           https://github.com/scrooloose/nerdtree.git
 * supertab:           https://github.com/ervandew/supertab.git
 * tagbar:             https://github.com/majutsushi/tagbar.git
 * undotree:           https://github.com/mbbill/undotree.git
+* vimagit:            https://github.com/jreybert/vimagit
 * vim-airline:        https://github.com/vim-airline/vim-airline
 * vim-airline-themes: https://github.com/vim-airline/vim-airline-themes
 * vim-gitgutter:      https://github.com/airblade/vim-gitgutter
