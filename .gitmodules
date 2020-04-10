@@ -64,3 +64,6 @@
 [submodule "vim-fugitive"]
 	path = vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "space-vim-dark"]
+	path = space-vim-dark
+	url = https://github.com/liuchengxu/space-vim-dark.git
