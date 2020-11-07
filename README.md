@@ -29,6 +29,7 @@ For each plugin, please visit its home page:
 * vim-surround:             https://github.com/tpope/vim-surround
 * vim-virtualenv:           https://github.com/plytophogy/vim-virtualenv
 * vim-instant-markdown:     https://github.com/suan/vim-instant-markdown
+* Conque-GDB:               https://github.com/vim-scripts/Conque-GDB.git
 
 ## Installation
 
