@@ -53,6 +53,28 @@ git clone --recursive https://github.com/ChevalierDeBalibari/my-vim-plugins.git 
 
 That's all!
 
+## Fix a.vim shortcut conflict
+
+Apply following patch to a.vim plugin:
+
+```
+diff --git a/plugin/a.vim b/plugin/a.vim
+index 637feb5..deb5d77 100644
+--- a/plugin/a.vim
++++ b/plugin/a.vim
+@@ -559,8 +559,8 @@ comm! -nargs=? -bang IHT call AlternateOpenFileUnderCursor("t<bang>", <f-args>)
+ comm! -nargs=? -bang IHN call AlternateOpenNextFile("<bang>")
+ imap <Leader>ih <ESC>:IHS<CR>
+ nmap <Leader>ih :IHS<CR>
+-imap <Leader>is <ESC>:IHS<CR>:A<CR>
+-nmap <Leader>is :IHS<CR>:A<CR>
++imap <Leader>ia <ESC>:IHS<CR>:A<CR>
++nmap <Leader>ia :IHS<CR>:A<CR>
+ imap <Leader>ihn <ESC>:IHN<CR>
+ nmap <Leader>ihn :IHN<CR>
+
+```
+
 ## Additional information
 
 This repository contains only a portion of my complete vim installation that includes:
