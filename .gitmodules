@@ -67,3 +67,6 @@
 [submodule "vim-instant-markdown"]
 	path = vim-instant-markdown
 	url = https://github.com/suan/vim-instant-markdown
+[submodule "vim-better-whitespace"]
+	path = vim-better-whitespace
+	url = git://github.com/ntpeters/vim-better-whitespace.git
