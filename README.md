@@ -9,27 +9,29 @@ own needs.
 
 For each plugin, please visit its home page:
 
-
-* DoxygenToolkit:           https://github.com/vim-scripts/DoxygenToolkit.vim
-* a.vim:                    https://github.com/vim-scripts/a.vim
-* auto-pairs:               https://github.com/jiangmiao/auto-pairs
+* Conque-GDB:               https://github.com/vim-scripts/Conque-GDB.git
+* DoxygenToolkit.vim:       https://github.com/vim-scripts/DoxygenToolkit.vim.git
+* a.vim:                    https://github.com/vim-scripts/a.vim.git
+* auto-pairs:               https://github.com/vim-scripts/auto-pairs.git
 * cscope-maps:              https://github.com/joe-skb7/cscope-maps.git
 * file-line:                https://github.com/bogado/file-line.git
 * indentLine:               https://github.com/Yggdroot/indentLine.git
-* NERDtree:                 https://github.com/scrooloose/nerdtree.git
-* supertab:                 https://github.com/ervandew/supertab.git
+* nerdtree:                 https://github.com/scrooloose/nerdtree.git
+* space-vim-dark:           https://github.com/liuchengxu/space-vim-dark.git
+* supertab:                 https://github.com/vim-scripts/supertab.git
 * tagbar:                   https://github.com/majutsushi/tagbar.git
 * undotree:                 https://github.com/mbbill/undotree.git
-* vimagit:                  https://github.com/jreybert/vimagit
-* vim-airline:              https://github.com/vim-airline/vim-airline
-* vim-airline-themes:       https://github.com/vim-airline/vim-airline-themes
+* vim-airline:              https://github.com/vim-airline/vim-airline.git
+* vim-airline-themes:       https://github.com/vim-airline/vim-airline-themes.git
+* vim-better-whitespace:    https://github.com/ntpeters/vim-better-whitespace.git
 * vim-gitgutter:            https://github.com/airblade/vim-gitgutter
+* vim-instant-markdown:     https://github.com/suan/vim-instant-markdown
+* vim-linux-coding-style:   https://github.com/vivien/vim-linux-coding-style
 * vim-plugins:              https://github.com/WolfgangMehner/vim-plugins.git
 * vim-repeat:               https://github.com/tpope/vim-repeat
-* vim-surround:             https://github.com/tpope/vim-surround
-* vim-virtualenv:           https://github.com/plytophogy/vim-virtualenv
-* vim-instant-markdown:     https://github.com/suan/vim-instant-markdown
-* Conque-GDB:               https://github.com/vim-scripts/Conque-GDB.git
+* vim-surround:             https://github.com/tpope/vim-surround.git
+* vim-virtualenv:           https://github.com/plytophogy/vim-virtualenv.git
+* vimagit:                  https://github.com/jreybert/vimagit.git
 
 ## Installation
 
