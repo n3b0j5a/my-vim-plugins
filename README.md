@@ -53,7 +53,7 @@ git clone --recursive https://github.com/ChevalierDeBalibari/my-vim-plugins.git 
 
 That's all!
 
-## Fix a.vim shortcut conflict
+### Fix a.vim shortcut conflict
 
 Apply following patch to a.vim plugin:
 
@@ -72,9 +72,11 @@ index 637feb5..deb5d77 100644
 +nmap <Leader>ia :IHS<CR>:A<CR>
  imap <Leader>ihn <ESC>:IHN<CR>
  nmap <Leader>ihn :IHN<CR>
-
 ```
-## Fix Conque-GDB python import
+
+### Fix Conque-GDB Python error:
+
+On newer python versions you might experience error with collections library. Apply following patch:
 
 ```
 diff --git a/autoload/conque_gdb/conque_gdb.py b/autoload/conque_gdb/conque_gdb.py
@@ -96,7 +98,26 @@ index c54e3c8..fda5c63 100644
      def __init__(self):
          self.r_breaks = dict()
          self.lookups = dict()
+```
 
+### Increase linux coding style max line width:
+
+Apply following patch:
+
+```
+diff --git a/plugin/linuxsty.vim b/plugin/linuxsty.vim
+index 6f7e331..fb126da 100644
+--- a/plugin/linuxsty.vim
++++ b/plugin/linuxsty.vim
+@@ -80,7 +80,7 @@ function s:LinuxHighlighting()
+     highlight default link LinuxError ErrorMsg
+ 
+     syn match LinuxError / \+\ze\t/     " spaces before tab
+-    syn match LinuxError /\%>80v[^()\{\}\[\]<>]\+/ " virtual column 81 and more
++    syn match LinuxError /\%>120v[^()\{\}\[\]<>]\+/ " virtual column 81 and more
+ 
+     " Highlight trailing whitespace, unless we're in insert mode and the
+     " cursor's placed right after the whitespace. This prevents us from having
 ```
 
 ## Additional information
